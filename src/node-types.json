@@ -1,5 +1,44 @@
 [
   {
+    "type": "document",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "section",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "field",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "field_name",
+          "named": true
+        },
+        {
+          "type": "field_value",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "field_value",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "section",
     "named": true,
     "fields": {},
@@ -8,7 +47,7 @@
       "required": true,
       "types": [
         {
-          "type": "section_field",
+          "type": "section_body",
           "named": true
         },
         {
@@ -19,7 +58,7 @@
     }
   },
   {
-    "type": "section_field",
+    "type": "section_body",
     "named": true,
     "fields": {},
     "children": {
@@ -27,11 +66,7 @@
       "required": true,
       "types": [
         {
-          "type": "name",
-          "named": true
-        },
-        {
-          "type": "value",
+          "type": "field",
           "named": true
         }
       ]
@@ -53,30 +88,6 @@
     }
   },
   {
-    "type": "source_file",
-    "named": true,
-    "fields": {},
-    "children": {
-      "multiple": true,
-      "required": false,
-      "types": [
-        {
-          "type": "section",
-          "named": true
-        }
-      ]
-    }
-  },
-  {
-    "type": "value",
-    "named": true,
-    "fields": {}
-  },
-  {
-    "type": "\n",
-    "named": false
-  },
-  {
     "type": ":",
     "named": false
   },
@@ -93,7 +104,7 @@
     "named": true
   },
   {
-    "type": "name",
+    "type": "field_name",
     "named": true
   },
   {

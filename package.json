@@ -1,0 +1,27 @@
+{
+  "name": "tree-sitter-klipper",
+  "version": "1.0.0",
+  "description": "Tree-sitter grammar for Klipper configuration files",
+  "main": "bindings/node",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mora-unie-youer/tree-sitter-klipper.git"
+  },
+  "keywords": [
+    "tree-sitter",
+    "klipper",
+    "parser"
+  ],
+  "author": "Mora Unie Youer <mora_unie_youer@riseup.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mora-unie-youer/tree-sitter-klipper/issues"
+  },
+  "homepage": "https://github.com/mora-unie-youer/tree-sitter-klipper#readme",
+  "dependencies": {
+    "nan": "^2.17.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.8"
+  }
+}
